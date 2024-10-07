@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.title{
+    font-size: 25px;
+}
+.container{
+    display: block;
+    background-color: white;
+    border-radius: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 5vh 1vh 0vh 5vh;
+    border: black solid 2px;
+    box-shadow: black 10px 10px;
+}
+.illus{
+    border-radius: 2vh;
+}
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    width: 30%;
+    border-radius: 0.5vh;
+    padding-left: 15px;
+}
+.avatar{
+    width: 50px;
+    position: relative;
+    bottom: 6.5vh;
+    right: 1vh;
+}
+.name {
+    position: relative;
+    left: 15%;
+}
+.id{
+    margin-bottom: 0;
+}
+.attribution{
+    position: absolute;
+    bottom: 10%;
+}
+.text{
+    color: hsl(0, 0%, 42%);
+}
